@@ -1,0 +1,47 @@
+# VSCODE
+.vscode
+# Python cache
+__pycache__
+
+# notebook checkpoint
+.ipynb_checkpoints
+
+# out images
+out/*/detected_shapes
+
+# Executables
+*.out  
+*.so
+*.o
+*.exe
+
+# python vvirut al environment
+env
+env_windows
+
+# ignore all txt file except requirements.txt
+*.txt
+!requirements.txt
+
+# ignore any folder in mnist
+mnist/images
+mnist/labels
+mnist/backup
+
+# debug output
+out/
+
+# model 
+model/
+*.tar
+*.tar.gz
+
+# log file
+*.log
+
+# dist
+.dist/
+
+# image 
+img/
+
